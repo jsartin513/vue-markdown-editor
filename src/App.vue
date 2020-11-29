@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Markdown Editor</h1>
+    <h1 class="page-header">Markdown Editor</h1>
     <div class="page-content">
       <MarkdownEditor />
     </div>
@@ -23,9 +23,14 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.page-header{
+  text-align: center;
+  border: solid blue;
+  border-width: thin;
 }
 
 .page-content {
